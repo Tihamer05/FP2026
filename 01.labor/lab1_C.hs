@@ -163,4 +163,5 @@ lista_ = zip ['a'..'z'] [1..26]
 
 -- Szamparok lista
 
+lista_nr :: (Num b, Enum b) => b -> [(b, b)]
 lista_nr n = zip [0..n] [n,(n-1)..0]
