@@ -80,7 +80,7 @@ fakt3 :: Int -> Int -> Int
 fakt3 res n
     | n < 0 = error "Negativ szam"
     | n == 0 = res
-    | otherwise =  fakt3 (res * n) (n - 1)
+    | otherwise = fakt3 (res * n) (n - 1)
 
 -- az x szám n-ik hatványát, ha a kitevő pozitív szám (3 módszer)
 
