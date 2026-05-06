@@ -1,23 +1,24 @@
-import Control.Monad
-import Data.Bits
-import Data.ByteString qualified as BS
-import Data.ByteString.Char8 qualified as BC
-import Data.List
-import Data.Word
-import Numeric
-import System.Directory
-import System.IO
-import System.Random
+import           Control.Monad
+import           Data.Bits
+import qualified Data.ByteString       as BS
+import qualified Data.ByteString.Char8 as BC
+import           Data.List
+import           Data.Word
+import           Numeric
+import           System.Directory
+import           System.IO
+import           System.Random
 
 -- # 7. labor
+-- cabal run vagy cabal run lab7, ha cabal-lal van instalalva a System.Random, ehhez kell egy .cabal fajl is
 
 -- Maybe Monad
 myHead :: [a] -> Maybe a
-myHead [] = Nothing
+myHead []       = Nothing
 myHead (k : ve) = Just k
 
 myTail :: [a] -> Maybe [a]
-myTail [] = Nothing
+myTail []       = Nothing
 myTail (k : ve) = Just ve
 
 -- Olvassunk be szamokat allomanybol, majd irassuk ki allomanyba a rendezett sorrendet
