@@ -1,10 +1,11 @@
--- # 8. labor
+module Lab8 where
 import           Data.Function (on)
 import           Data.List     (find, groupBy, intercalate, maximumBy, sortBy,
                                 sortOn)
 import           Data.Ord
 import           System.IO
 
+-- # 8. labor
 -- I. Írjunk egy Haskell programot, amelyben megadunk egy konstans Fesztivalok elemtípusú listát, majd
 
 data Fesztivalok = Fesztivalok
@@ -339,5 +340,3 @@ mainIII = do
   mapM_ (\(n,k,b,p) -> putStrLn (n ++ " [" ++ intercalate ", " (map show k) ++ "] " ++ show b ++ " [" ++ intercalate ", " p ++ "]")) maxBC
   -- 4.
   writeFile "08.labor/sc_adatok.txt" scLsToFile
-
-

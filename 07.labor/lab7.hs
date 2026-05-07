@@ -1,3 +1,4 @@
+module Lab7 where 
 import           Control.Monad
 import           Data.Bits
 import qualified Data.ByteString       as BS
