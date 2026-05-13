@@ -1,0 +1,8 @@
+[ Alkalmazott {alkNev = "KissCs",
+alkJovedelem = [(2012,8600),(2013,8900),(2014,8700)]},
+Alkalmazott {alkNev = "SzaboJ" ,
+alkJovedelem = [(2010,18000),(2011,21000),(2013,20000),(2014,24000)]},
+Alkalmazott {alkNev = "NagyS",
+alkJovedelem = [(2011,22000),(2012,23000),(2013,19000),(2014,24000)]},
+Alkalmazott {alkNev = "KovacsM",
+alkJovedelem = [(2013,9900),(2014,9800)]}]
